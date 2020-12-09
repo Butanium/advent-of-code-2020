@@ -93,6 +93,6 @@ result = 0
 shiny_bag = get_color('shiny gold')
 print(shiny_bag.name)
 print(shiny_bag.get_bags()-1)
-
+a = []
 # print(result)
 
