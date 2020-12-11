@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/adventofcode.iml" filepath="$PROJECT_DIR$/.idea/adventofcode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../prépa/algogen/.idea/algogen.iml" filepath="$PROJECT_DIR$/../../prépa/algogen/.idea/algogen.iml" />
     </modules>
   </component>
 </project>
