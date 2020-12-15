@@ -31,10 +31,6 @@ result = 1
 for i in partition_scores:
     result *= i
 print(result)
-
-
-
-
     # for nb_permut_to_achieve in range(1, len(partition) + 1 - 2):  # 1 à len(partition) -2 possibilités on rajoute 1
     #     # afin d'inclure le nom
     #     for start_index in range(1, len(partition) - nb_permut_to_achieve):
@@ -44,4 +40,3 @@ print(result)
     #                 pass
     #             elif are_removed[start_index + increment - 2]:
     #                 pass
-

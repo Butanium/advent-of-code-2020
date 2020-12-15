@@ -1,8 +1,8 @@
-state_matrix = [[list(i) for i in open('puzzle_inputs/puzzle_input_day_11.txt').read().split('\n')]]
+state_matrix = [[list(i) for i in open('puzzle_inputs/puzzle_input_day_11.txt').read().split('\n')],
+                [list(i) for i in open('puzzle_inputs/puzzle_input_day_11.txt').read().split('\n')]]
 
 # state_matrix = [[list(i) for i in open('tests/test_day_11.txt').read().split('\n')]]
 # state_matrix.append([list(i) for i in open('tests/test_day_11.txt').read().split('\n')])
-state_matrix.append([list(i) for i in open('puzzle_inputs/puzzle_input_day_11.txt').read().split('\n')])
 print(id(state_matrix[0]), id(state_matrix[1]))
 
 occup_list = [[0, 1], [0, -1], [1, 0], [1, 1], [1, -1], [-1, 0], [-1, 1], [-1, -1]]
