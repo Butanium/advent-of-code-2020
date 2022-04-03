@@ -72,7 +72,6 @@ aaaabbaabbaaaaaaabbbabbbaaabbaabaaa
 aabbbbbaabbbaaaaaabbbbbababaaaaabbaaabba'''.split('\n')
 
 result = 0
-caca = 'aaaabbaaaabbaaa'
 r, l, rule_list = is_message_valid('aaaabbaaaabbaaa', 0, 0)
 print(r, rule_list)
 print(sep)
